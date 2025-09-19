@@ -1,4 +1,4 @@
-import pickle
+import pickle, os
 import pandas as pd
 import numpy as np
 import streamlit as st
@@ -9,11 +9,12 @@ import plotly.express as px
 # ========================
 @st.cache_resource
 def load_model_and_encoders():
-    with open('model.pkl', 'rb') as file:
+    BASE_DIR = os.path.dirname(__file__)
+    with open(os.path.join(BASE_DIR,'model.pkl'), 'rb') as file:
         model = pickle.load(file)
-    with open('encoder_X.pkl', 'rb') as file:
+    with open(os.path.join(BASE_DIR,'encoder_X.pkl'), 'rb') as file:
         X_encoder = pickle.load(file)
-    with open('encoder_y.pkl', 'rb') as file:
+    with open(os.path.join(BASE_DIR,'encoder_y.pkl'), 'rb') as file:
         y_encoder = pickle.load(file)
     return model, X_encoder, y_encoder
 # ========================
