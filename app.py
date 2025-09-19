@@ -8,8 +8,7 @@ import plotly.express as px
 # Load model & encoders
 # ========================
 @st.cache_resource
-def load_model_and_encoders():
-    BASE_DIR = os.path.dirname(__file__)
+def load_model_and_encoders(BASE_DIR):
     with open(os.path.join(BASE_DIR,'model.pkl'), 'rb') as file:
         model = pickle.load(file)
     with open(os.path.join(BASE_DIR,'encoder_X.pkl'), 'rb') as file:
@@ -20,7 +19,7 @@ def load_model_and_encoders():
 # ========================
 # Main App
 # ========================
-def main():
+def main(BASE_DIR):
     # --------- PAGE CONFIG ---------
     st.set_page_config(
         page_title="ML Asset Forecast",
@@ -80,7 +79,7 @@ def main():
         unsafe_allow_html=True
     )
     # --------- LOAD MODEL ---------
-    model, X_encoder, y_encoder = load_model_and_encoders()
+    model, X_encoder, y_encoder = load_model_and_encoders(BASE_DIR)
     # --------- INPUT FORMAT INFO ---------
     st.markdown(
         """
@@ -170,4 +169,5 @@ def main():
         st.info("⬆️ Please upload a CSV file to start.")
 
 if __name__ == "__main__":
-    main()
+    BASE_DIR = os.path.dirname(__file__)
+    main(BASE_DIR)
