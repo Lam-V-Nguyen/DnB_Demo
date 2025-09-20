@@ -73,8 +73,8 @@ def main(dir):
                     background: rgba(255,255,255,0.05); 
                     border-radius: 16px; 
                     box-shadow: 0 4px 15px rgba(0,0,0,0.3);">
-            <h1>🏠 Machine Learning Asset Forecast</h1>
-            <p style="font-size:18px;">Predict asset outcomes using a pre-trained Machine Learning model</p>
+            <h1>🏠 Real Estate Asset Prediction with Machine Learning</h1>
+            <p style="font-size:27px;">Predict asset outcomes using a pre-trained Machine Learning model</p>
         </div>
         """,
         unsafe_allow_html=True
@@ -82,7 +82,7 @@ def main(dir):
     # --------- ABOUT APP ---------
     st.markdown(
         """
-        <div class="info-box" style="margin-top:2rem; font-size:18px; font-weight:400;">
+        <div class="info-box" style="margin-top:2rem; font-size:16px; font-weight:400;">
             <h3>📖 About This App</h3>
             <p>
             This application predicts asset outcomes using a pre-trained Machine Learning model.<br>
