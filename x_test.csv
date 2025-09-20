@@ -1,0 +1,201 @@
+age_group,household_type,num_children,income_bracket,tenure,property_pref,urbanicity,lifestyle_pref,education,employment
+20-29,Single,1-2,"Over 1,500,000 NOK",Owner,Detached house,Suburb,Public transport,Higher education - Bachelor,Self-employed
+20-29,Single,1-2,"500,000–1,000,000 NOK",Owner,Apartment,City,Schools/Safety,Secondary school,Full-time job
+50-59,Couple with children,0,"Under 500,000 NOK",Renter,Detached house,City,Culture/Lifestyle,Higher education - Bachelor,Full-time job
+50-59,Couple with children,0,"1,000,000–1,500,000 NOK",Owner,Row house,Small town,Culture/Lifestyle,Higher education - Bachelor,Student
+40-49,Single,1-2,"1,000,000–1,500,000 NOK",Renter,Detached house,Small town,Schools/Safety,Høyere utdanning,Self-employed
+50-59,Single parent,0,"Under 500,000 NOK",Owner,Row house,Small town,Nature/Peace,Primary school,Self-employed
+50-59,Single,0,"1,000,000–1,500,000 NOK",Owner,Apartment,City,Culture/Lifestyle,Secondary school,Self-employed
+20-29,Single,1-2,"500,000–1,000,000 NOK",Renter,Row house,Suburb,Nature/Peace,Higher education - Bachelor,Full-time job
+50-59,Single,0,"Under 500,000 NOK",Owner,Apartment,City,Culture/Lifestyle,Høyere utdanning,Self-employed
+50-59,Single parent,1-2,"Under 500,000 NOK",Renter,Row house,Countryside,Schools/Safety,Secondary school,Student
+20-29,Single parent,1-2,"500,000–1,000,000 NOK",Renter,Row house,City,Public transport,Høyere utdanning,Self-employed
+20-29,Single parent,0,"1,000,000–1,500,000 NOK",Renter,Detached house,City,Public transport,Høyere utdanning,Full-time job
+40-49,Couple with children,0,"1,000,000–1,500,000 NOK",Renter,Detached house,City,Nature/Peace,Høyere utdanning,Full-time job
+50-59,Couple with children,0,"500,000–1,000,000 NOK",Owner,Apartment,City,Schools/Safety,Secondary school,Full-time job
+20-29,Single parent,0,"Over 1,500,000 NOK",Renter,Apartment,City,Nature/Peace,Høyere utdanning,Self-employed
+20-29,Single,1-2,"1,000,000–1,500,000 NOK",Renter,Detached house,City,Nature/Peace,Høyere utdanning,Self-employed
+50-59,Couple with children,0,"Over 1,500,000 NOK",Renter,Detached house,Small town,Schools/Safety,Høyere utdanning,Full-time job
+40-49,Single,1-2,"Over 1,500,000 NOK",Renter,Apartment,City,Schools/Safety,Høyere utdanning,Self-employed
+50-59,Couple with children,0,"Over 1,500,000 NOK",Owner,Row house,City,Schools/Safety,Høyere utdanning,Self-employed
+20-29,Couple with children,1-2,"Under 500,000 NOK",Owner,Detached house,Small town,Public transport,Høyere utdanning,Self-employed
+20-29,Single,1-2,"Under 500,000 NOK",Renter,Detached house,Small town,Nature/Peace,Higher education - Bachelor,Full-time job
+20-29,Couple with children,0,"1,000,000–1,500,000 NOK",Renter,Detached house,City,Public transport,Høyere utdanning,Full-time job
+20-29,Single,3+,"1,000,000–1,500,000 NOK",Renter,Detached house,City,Schools/Safety,Higher education - Bachelor,Full-time job
+40-49,Single,1-2,"Over 1,500,000 NOK",Owner,Row house,City,Culture/Lifestyle,Higher education - Bachelor,Self-employed
+20-29,Single,0,"500,000–1,000,000 NOK",Renter,Row house,City,Nature/Peace,Høyere utdanning,Self-employed
+20-29,Single parent,0,"500,000–1,000,000 NOK",Renter,Apartment,Suburb,Schools/Safety,Høyere utdanning,Full-time job
+20-29,Single,3+,"500,000–1,000,000 NOK",Owner,Apartment,City,Culture/Lifestyle,Higher education - Bachelor,Self-employed
+50-59,Single,0,"500,000–1,000,000 NOK",Renter,Row house,City,Schools/Safety,Høyere utdanning,Full-time job
+40-49,Single,1-2,"500,000–1,000,000 NOK",Renter,Detached house,City,Schools/Safety,Secondary school,Full-time job
+40-49,Single,0,"Over 1,500,000 NOK",Renter,Apartment,Suburb,Schools/Safety,Secondary school,Student
+40-49,Couple without children,3+,"Over 1,500,000 NOK",Renter,Apartment,Countryside,Nature/Peace,Secondary school,Self-employed
+20-29,Single,1-2,"500,000–1,000,000 NOK",Renter,Apartment,Small town,Culture/Lifestyle,Høyere utdanning,Self-employed
+20-29,Couple with children,1-2,"Under 500,000 NOK",Owner,Row house,Countryside,Schools/Safety,Høyere utdanning,Self-employed
+40-49,Single,3+,"Under 500,000 NOK",Renter,Apartment,Countryside,Public transport,Secondary school,Self-employed
+20-29,Single,1-2,"Over 1,500,000 NOK",Renter,Apartment,City,Schools/Safety,Høyere utdanning,Full-time job
+20-29,Couple with children,1-2,"1,000,000–1,500,000 NOK",Owner,Apartment,City,Nature/Peace,Secondary school,Full-time job
+50-59,Single parent,0,"500,000–1,000,000 NOK",Renter,Apartment,Suburb,Public transport,Høyere utdanning,Self-employed
+20-29,Couple with children,0,"1,000,000–1,500,000 NOK",Renter,Row house,City,Schools/Safety,Primary school,Full-time job
+50-59,Single,1-2,"500,000–1,000,000 NOK",Renter,Detached house,City,Nature/Peace,Higher education - Bachelor,Full-time job
+50-59,Couple without children,1-2,"Under 500,000 NOK",Owner,Apartment,Suburb,Public transport,Secondary school,Self-employed
+50-59,Single,1-2,"500,000–1,000,000 NOK",Renter,Apartment,City,Nature/Peace,Høyere utdanning,Self-employed
+20-29,Couple with children,0,"500,000–1,000,000 NOK",Renter,Row house,Suburb,Schools/Safety,Primary school,Self-employed
+50-59,Couple with children,1-2,"500,000–1,000,000 NOK",Renter,Apartment,City,Culture/Lifestyle,Høyere utdanning,Full-time job
+40-49,Single parent,1-2,"500,000–1,000,000 NOK",Renter,Detached house,City,Culture/Lifestyle,Høyere utdanning,Self-employed
+50-59,Single,0,"500,000–1,000,000 NOK",Renter,Apartment,Countryside,Culture/Lifestyle,Høyere utdanning,Student
+20-29,Single,0,"Under 500,000 NOK",Renter,Apartment,Small town,Public transport,Høyere utdanning,Full-time job
+40-49,Couple with children,0,"Under 500,000 NOK",Renter,Apartment,Small town,Culture/Lifestyle,Høyere utdanning,Student
+20-29,Single parent,1-2,"500,000–1,000,000 NOK",Renter,Apartment,Suburb,Nature/Peace,Høyere utdanning,Full-time job
+20-29,Couple without children,1-2,"Under 500,000 NOK",Renter,Apartment,City,Culture/Lifestyle,Higher education - Bachelor,Full-time job
+20-29,Single,0,"1,000,000–1,500,000 NOK",Renter,Apartment,Suburb,Culture/Lifestyle,Høyere utdanning,Self-employed
+20-29,Single parent,0,"Under 500,000 NOK",Renter,Apartment,City,Schools/Safety,Higher education - Bachelor,Full-time job
+20-29,Single parent,1-2,"500,000–1,000,000 NOK",Renter,Apartment,City,Schools/Safety,Høyere utdanning,Self-employed
+20-29,Single,0,"1,000,000–1,500,000 NOK",Renter,Row house,Small town,Culture/Lifestyle,Høyere utdanning,Full-time job
+20-29,Couple with children,1-2,"Over 1,500,000 NOK",Owner,Apartment,City,Culture/Lifestyle,Høyere utdanning,Full-time job
+40-49,Single,1-2,"Under 500,000 NOK",Renter,Apartment,City,Schools/Safety,Higher education - Bachelor,Full-time job
+20-29,Couple without children,0,"Over 1,500,000 NOK",Renter,Apartment,City,Nature/Peace,Høyere utdanning,Full-time job
+20-29,Single,0,"500,000–1,000,000 NOK",Owner,Apartment,City,Public transport,Higher education - Bachelor,Full-time job
+40-49,Single parent,1-2,"1,000,000–1,500,000 NOK",Renter,Row house,Small town,Schools/Safety,Høyere utdanning,Self-employed
+50-59,Couple with children,0,"500,000–1,000,000 NOK",Owner,Apartment,City,Public transport,Primary school,Full-time job
+40-49,Single,0,"Over 1,500,000 NOK",Owner,Row house,Countryside,Culture/Lifestyle,Høyere utdanning,Self-employed
+20-29,Single,0,"500,000–1,000,000 NOK",Renter,Apartment,City,Culture/Lifestyle,Høyere utdanning,Self-employed
+20-29,Single,1-2,"500,000–1,000,000 NOK",Renter,Apartment,Small town,Public transport,Høyere utdanning,Full-time job
+20-29,Single,3+,"Under 500,000 NOK",Owner,Apartment,Small town,Culture/Lifestyle,Higher education - Bachelor,Self-employed
+20-29,Single,0,"500,000–1,000,000 NOK",Renter,Row house,City,Nature/Peace,Høyere utdanning,Student
+20-29,Single,0,"500,000–1,000,000 NOK",Owner,Apartment,City,Nature/Peace,Høyere utdanning,Full-time job
+20-29,Couple with children,0,"500,000–1,000,000 NOK",Owner,Row house,Small town,Schools/Safety,Høyere utdanning,Full-time job
+40-49,Couple without children,0,"Under 500,000 NOK",Owner,Apartment,City,Culture/Lifestyle,Secondary school,Self-employed
+40-49,Single,0,"Under 500,000 NOK",Renter,Detached house,Suburb,Schools/Safety,Higher education - Bachelor,Full-time job
+20-29,Single,0,"Over 1,500,000 NOK",Renter,Apartment,Suburb,Culture/Lifestyle,Secondary school,Self-employed
+20-29,Single,1-2,"Under 500,000 NOK",Owner,Row house,Countryside,Nature/Peace,Secondary school,Self-employed
+40-49,Single,1-2,"1,000,000–1,500,000 NOK",Renter,Apartment,Small town,Schools/Safety,Higher education - Bachelor,Self-employed
+50-59,Single,0,"Over 1,500,000 NOK",Renter,Apartment,Suburb,Nature/Peace,Høyere utdanning,Full-time job
+40-49,Couple with children,1-2,"Under 500,000 NOK",Renter,Apartment,Small town,Nature/Peace,Secondary school,Full-time job
+20-29,Couple without children,1-2,"500,000–1,000,000 NOK",Renter,Detached house,City,Nature/Peace,Høyere utdanning,Full-time job
+50-59,Single,0,"1,000,000–1,500,000 NOK",Renter,Apartment,Small town,Public transport,Higher education - Bachelor,Self-employed
+20-29,Couple with children,0,"1,000,000–1,500,000 NOK",Owner,Row house,Suburb,Public transport,Høyere utdanning,Full-time job
+40-49,Couple with children,1-2,"1,000,000–1,500,000 NOK",Renter,Apartment,City,Public transport,Høyere utdanning,Full-time job
+20-29,Single,0,"1,000,000–1,500,000 NOK",Owner,Apartment,City,Schools/Safety,Høyere utdanning,Full-time job
+20-29,Couple without children,0,"500,000–1,000,000 NOK",Renter,Detached house,Small town,Schools/Safety,Høyere utdanning,Full-time job
+20-29,Single,1-2,"1,000,000–1,500,000 NOK",Renter,Row house,Suburb,Culture/Lifestyle,Secondary school,Self-employed
+40-49,Couple with children,0,"500,000–1,000,000 NOK",Owner,Apartment,Countryside,Nature/Peace,Høyere utdanning,Full-time job
+20-29,Single,1-2,"1,000,000–1,500,000 NOK",Owner,Apartment,City,Public transport,Secondary school,Full-time job
+20-29,Single,1-2,"Under 500,000 NOK",Renter,Apartment,City,Public transport,Higher education - Bachelor,Student
+20-29,Single,3+,"1,000,000–1,500,000 NOK",Owner,Apartment,City,Schools/Safety,Primary school,Self-employed
+50-59,Couple with children,1-2,"Under 500,000 NOK",Owner,Apartment,City,Schools/Safety,Høyere utdanning,Student
+20-29,Single,0,"Under 500,000 NOK",Renter,Row house,Suburb,Culture/Lifestyle,Høyere utdanning,Full-time job
+20-29,Single,1-2,"1,000,000–1,500,000 NOK",Owner,Apartment,Small town,Schools/Safety,Primary school,Self-employed
+40-49,Single,0,"500,000–1,000,000 NOK",Owner,Row house,City,Schools/Safety,Secondary school,Self-employed
+40-49,Single,0,"1,000,000–1,500,000 NOK",Renter,Detached house,Small town,Public transport,Higher education - Bachelor,Full-time job
+40-49,Single,1-2,"500,000–1,000,000 NOK",Renter,Detached house,City,Culture/Lifestyle,Higher education - Bachelor,Self-employed
+20-29,Single parent,1-2,"Under 500,000 NOK",Owner,Apartment,Countryside,Public transport,Higher education - Bachelor,Full-time job
+20-29,Single parent,3+,"1,000,000–1,500,000 NOK",Renter,Apartment,City,Schools/Safety,Secondary school,Full-time job
+40-49,Single,3+,"Over 1,500,000 NOK",Owner,Row house,City,Culture/Lifestyle,Høyere utdanning,Self-employed
+40-49,Single,1-2,"500,000–1,000,000 NOK",Owner,Detached house,Suburb,Nature/Peace,Høyere utdanning,Full-time job
+50-59,Single,0,"Over 1,500,000 NOK",Owner,Apartment,Suburb,Public transport,Higher education - Bachelor,Self-employed
+50-59,Single,1-2,"Under 500,000 NOK",Renter,Apartment,City,Culture/Lifestyle,Høyere utdanning,Full-time job
+20-29,Couple with children,3+,"1,000,000–1,500,000 NOK",Renter,Apartment,Countryside,Nature/Peace,Høyere utdanning,Full-time job
+20-29,Single,0,"500,000–1,000,000 NOK",Owner,Apartment,City,Public transport,Primary school,Self-employed
+40-49,Couple with children,1-2,"500,000–1,000,000 NOK",Owner,Apartment,Suburb,Nature/Peace,Høyere utdanning,Full-time job
+20-29,Single,1-2,"1,000,000–1,500,000 NOK",Owner,Detached house,Small town,Schools/Safety,Høyere utdanning,Full-time job
+40-49,Couple with children,1-2,"Under 500,000 NOK",Renter,Detached house,Small town,Public transport,Secondary school,Self-employed
+20-29,Single,1-2,"1,000,000–1,500,000 NOK",Renter,Apartment,City,Public transport,Høyere utdanning,Self-employed
+50-59,Single,0,"1,000,000–1,500,000 NOK",Renter,Detached house,City,Schools/Safety,Higher education - Bachelor,Self-employed
+20-29,Single,0,"500,000–1,000,000 NOK",Owner,Detached house,City,Nature/Peace,Higher education - Bachelor,Full-time job
+20-29,Single,0,"Under 500,000 NOK",Renter,Row house,Suburb,Culture/Lifestyle,Secondary school,Full-time job
+20-29,Single,0,"1,000,000–1,500,000 NOK",Renter,Apartment,City,Public transport,Higher education - Bachelor,Self-employed
+40-49,Couple without children,0,"500,000–1,000,000 NOK",Owner,Detached house,City,Nature/Peace,Higher education - Bachelor,Full-time job
+20-29,Single,0,"1,000,000–1,500,000 NOK",Renter,Apartment,Small town,Public transport,Høyere utdanning,Self-employed
+40-49,Couple without children,1-2,"Under 500,000 NOK",Renter,Apartment,City,Culture/Lifestyle,Higher education - Bachelor,Self-employed
+50-59,Single parent,1-2,"Under 500,000 NOK",Owner,Apartment,City,Schools/Safety,Høyere utdanning,Self-employed
+20-29,Couple with children,3+,"500,000–1,000,000 NOK",Owner,Apartment,City,Schools/Safety,Høyere utdanning,Self-employed
+20-29,Couple without children,3+,"500,000–1,000,000 NOK",Renter,Apartment,Suburb,Nature/Peace,Secondary school,Self-employed
+20-29,Couple with children,0,"500,000–1,000,000 NOK",Owner,Apartment,Suburb,Nature/Peace,Higher education - Bachelor,Self-employed
+20-29,Couple without children,0,"Over 1,500,000 NOK",Renter,Row house,City,Schools/Safety,Høyere utdanning,Self-employed
+20-29,Couple with children,0,"1,000,000–1,500,000 NOK",Renter,Detached house,Small town,Schools/Safety,Secondary school,Full-time job
+20-29,Couple without children,3+,"500,000–1,000,000 NOK",Renter,Row house,City,Nature/Peace,Primary school,Full-time job
+20-29,Couple with children,0,"Under 500,000 NOK",Renter,Apartment,Suburb,Schools/Safety,Høyere utdanning,Self-employed
+20-29,Single,0,"Under 500,000 NOK",Owner,Detached house,City,Culture/Lifestyle,Høyere utdanning,Full-time job
+50-59,Single,0,"500,000–1,000,000 NOK",Owner,Detached house,Small town,Culture/Lifestyle,Høyere utdanning,Self-employed
+20-29,Single,0,"500,000–1,000,000 NOK",Renter,Apartment,Suburb,Public transport,Primary school,Full-time job
+40-49,Single,0,"1,000,000–1,500,000 NOK",Renter,Row house,City,Culture/Lifestyle,Higher education - Bachelor,Self-employed
+50-59,Single,0,"1,000,000–1,500,000 NOK",Owner,Apartment,Countryside,Culture/Lifestyle,Høyere utdanning,Full-time job
+50-59,Single parent,0,"500,000–1,000,000 NOK",Owner,Row house,Small town,Culture/Lifestyle,Higher education - Bachelor,Student
+20-29,Couple without children,0,"1,000,000–1,500,000 NOK",Renter,Apartment,Suburb,Public transport,Higher education - Bachelor,Full-time job
+20-29,Single,1-2,"Over 1,500,000 NOK",Owner,Apartment,Small town,Culture/Lifestyle,Higher education - Bachelor,Self-employed
+20-29,Couple with children,0,"Under 500,000 NOK",Owner,Detached house,City,Culture/Lifestyle,Høyere utdanning,Self-employed
+20-29,Single,0,"500,000–1,000,000 NOK",Owner,Detached house,City,Public transport,Higher education - Bachelor,Full-time job
+20-29,Single,0,"500,000–1,000,000 NOK",Owner,Apartment,City,Public transport,Høyere utdanning,Full-time job
+40-49,Couple without children,0,"500,000–1,000,000 NOK",Renter,Apartment,Suburb,Schools/Safety,Høyere utdanning,Full-time job
+20-29,Single,1-2,"Under 500,000 NOK",Renter,Apartment,Small town,Schools/Safety,Higher education - Bachelor,Self-employed
+20-29,Single parent,1-2,"500,000–1,000,000 NOK",Renter,Apartment,City,Nature/Peace,Høyere utdanning,Self-employed
+40-49,Single parent,0,"500,000–1,000,000 NOK",Renter,Apartment,City,Schools/Safety,Higher education - Bachelor,Full-time job
+20-29,Single,0,"500,000–1,000,000 NOK",Owner,Row house,City,Schools/Safety,Høyere utdanning,Full-time job
+40-49,Couple with children,0,"500,000–1,000,000 NOK",Renter,Detached house,Countryside,Nature/Peace,Primary school,Self-employed
+20-29,Single,0,"1,000,000–1,500,000 NOK",Renter,Apartment,City,Nature/Peace,Høyere utdanning,Full-time job
+40-49,Single parent,0,"1,000,000–1,500,000 NOK",Renter,Apartment,City,Schools/Safety,Higher education - Bachelor,Full-time job
+20-29,Couple with children,1-2,"1,000,000–1,500,000 NOK",Owner,Detached house,City,Schools/Safety,Higher education - Bachelor,Self-employed
+50-59,Single,0,"Under 500,000 NOK",Renter,Apartment,City,Public transport,Høyere utdanning,Full-time job
+20-29,Single,0,"Under 500,000 NOK",Owner,Apartment,Small town,Public transport,Høyere utdanning,Self-employed
+20-29,Single,0,"500,000–1,000,000 NOK",Renter,Apartment,City,Public transport,Secondary school,Self-employed
+20-29,Single,1-2,"1,000,000–1,500,000 NOK",Renter,Detached house,City,Schools/Safety,Høyere utdanning,Student
+20-29,Single,0,"1,000,000–1,500,000 NOK",Renter,Row house,Small town,Schools/Safety,Higher education - Bachelor,Self-employed
+20-29,Single,0,"500,000–1,000,000 NOK",Owner,Detached house,Small town,Culture/Lifestyle,Higher education - Bachelor,Self-employed
+40-49,Single,0,"500,000–1,000,000 NOK",Owner,Apartment,Suburb,Schools/Safety,Secondary school,Student
+20-29,Single,0,"1,000,000–1,500,000 NOK",Renter,Apartment,City,Schools/Safety,Higher education - Bachelor,Full-time job
+50-59,Single parent,1-2,"Over 1,500,000 NOK",Renter,Apartment,Small town,Culture/Lifestyle,Høyere utdanning,Self-employed
+20-29,Couple without children,1-2,"1,000,000–1,500,000 NOK",Owner,Row house,Suburb,Schools/Safety,Higher education - Bachelor,Full-time job
+20-29,Single parent,1-2,"1,000,000–1,500,000 NOK",Renter,Detached house,Suburb,Nature/Peace,Høyere utdanning,Full-time job
+40-49,Couple with children,3+,"1,000,000–1,500,000 NOK",Renter,Detached house,City,Schools/Safety,Higher education - Bachelor,Student
+40-49,Couple with children,3+,"1,000,000–1,500,000 NOK",Renter,Detached house,Suburb,Nature/Peace,Høyere utdanning,Self-employed
+50-59,Couple with children,3+,"Over 1,500,000 NOK",Owner,Row house,City,Culture/Lifestyle,Higher education - Bachelor,Full-time job
+40-49,Couple without children,0,"Over 1,500,000 NOK",Owner,Detached house,City,Schools/Safety,Høyere utdanning,Self-employed
+20-29,Single,1-2,"500,000–1,000,000 NOK",Renter,Row house,Suburb,Culture/Lifestyle,Høyere utdanning,Student
+40-49,Single,0,"500,000–1,000,000 NOK",Renter,Row house,City,Culture/Lifestyle,Higher education - Bachelor,Full-time job
+20-29,Single,0,"Over 1,500,000 NOK",Renter,Apartment,City,Schools/Safety,Higher education - Bachelor,Full-time job
+40-49,Single,0,"1,000,000–1,500,000 NOK",Renter,Detached house,City,Schools/Safety,Primary school,Self-employed
+20-29,Couple without children,0,"Over 1,500,000 NOK",Renter,Apartment,Small town,Culture/Lifestyle,Høyere utdanning,Self-employed
+40-49,Single,0,"500,000–1,000,000 NOK",Owner,Detached house,City,Culture/Lifestyle,Høyere utdanning,Self-employed
+50-59,Single,1-2,"500,000–1,000,000 NOK",Renter,Apartment,Countryside,Schools/Safety,Secondary school,Self-employed
+20-29,Couple with children,0,"500,000–1,000,000 NOK",Owner,Apartment,Small town,Culture/Lifestyle,Høyere utdanning,Full-time job
+20-29,Single,1-2,"500,000–1,000,000 NOK",Renter,Apartment,City,Nature/Peace,Secondary school,Full-time job
+20-29,Couple with children,1-2,"Under 500,000 NOK",Renter,Apartment,City,Schools/Safety,Higher education - Bachelor,Self-employed
+20-29,Couple with children,1-2,"Under 500,000 NOK",Owner,Apartment,Countryside,Nature/Peace,Høyere utdanning,Full-time job
+20-29,Couple without children,0,"Under 500,000 NOK",Renter,Detached house,City,Nature/Peace,Higher education - Bachelor,Full-time job
+40-49,Single,1-2,"500,000–1,000,000 NOK",Renter,Detached house,Small town,Culture/Lifestyle,Higher education - Bachelor,Full-time job
+40-49,Single,1-2,"500,000–1,000,000 NOK",Renter,Detached house,Countryside,Schools/Safety,Høyere utdanning,Full-time job
+20-29,Single,0,"500,000–1,000,000 NOK",Renter,Detached house,City,Public transport,Higher education - Bachelor,Student
+20-29,Single,0,"1,000,000–1,500,000 NOK",Owner,Row house,Small town,Schools/Safety,Høyere utdanning,Self-employed
+40-49,Single,0,"Under 500,000 NOK",Owner,Apartment,City,Culture/Lifestyle,Secondary school,Student
+20-29,Couple with children,0,"Over 1,500,000 NOK",Renter,Detached house,City,Nature/Peace,Høyere utdanning,Self-employed
+40-49,Single,0,"1,000,000–1,500,000 NOK",Renter,Detached house,City,Schools/Safety,Secondary school,Self-employed
+20-29,Couple without children,1-2,"500,000–1,000,000 NOK",Owner,Apartment,City,Schools/Safety,Høyere utdanning,Full-time job
+20-29,Single,0,"1,000,000–1,500,000 NOK",Renter,Detached house,Suburb,Culture/Lifestyle,Høyere utdanning,Self-employed
+40-49,Single,1-2,"Over 1,500,000 NOK",Owner,Detached house,City,Schools/Safety,Primary school,Self-employed
+40-49,Couple without children,0,"Over 1,500,000 NOK",Owner,Detached house,City,Culture/Lifestyle,Higher education - Bachelor,Self-employed
+50-59,Single,1-2,"1,000,000–1,500,000 NOK",Renter,Apartment,City,Schools/Safety,Higher education - Bachelor,Self-employed
+20-29,Single parent,1-2,"500,000–1,000,000 NOK",Renter,Row house,City,Public transport,Secondary school,Full-time job
+20-29,Single,1-2,"500,000–1,000,000 NOK",Owner,Row house,Small town,Public transport,Primary school,Full-time job
+40-49,Couple without children,0,"500,000–1,000,000 NOK",Renter,Row house,City,Culture/Lifestyle,Høyere utdanning,Self-employed
+40-49,Single parent,1-2,"Under 500,000 NOK",Owner,Detached house,Small town,Culture/Lifestyle,Høyere utdanning,Student
+20-29,Couple without children,0,"Over 1,500,000 NOK",Renter,Row house,City,Culture/Lifestyle,Høyere utdanning,Student
+20-29,Single,0,"1,000,000–1,500,000 NOK",Owner,Detached house,Suburb,Nature/Peace,Høyere utdanning,Self-employed
+20-29,Single,1-2,"1,000,000–1,500,000 NOK",Renter,Apartment,Suburb,Schools/Safety,Høyere utdanning,Full-time job
+20-29,Single,3+,"Over 1,500,000 NOK",Renter,Detached house,Suburb,Nature/Peace,Høyere utdanning,Full-time job
+20-29,Single,0,"1,000,000–1,500,000 NOK",Renter,Apartment,Suburb,Schools/Safety,Høyere utdanning,Full-time job
+50-59,Single,0,"1,000,000–1,500,000 NOK",Renter,Apartment,Suburb,Culture/Lifestyle,Høyere utdanning,Student
+20-29,Single,0,"1,000,000–1,500,000 NOK",Owner,Apartment,Small town,Culture/Lifestyle,Høyere utdanning,Self-employed
+20-29,Couple with children,0,"500,000–1,000,000 NOK",Owner,Row house,City,Nature/Peace,Høyere utdanning,Self-employed
+20-29,Single,1-2,"Under 500,000 NOK",Owner,Apartment,City,Schools/Safety,Høyere utdanning,Full-time job
+40-49,Single,1-2,"500,000–1,000,000 NOK",Renter,Detached house,Small town,Public transport,Høyere utdanning,Full-time job
+40-49,Single parent,1-2,"Under 500,000 NOK",Renter,Apartment,City,Public transport,Higher education - Bachelor,Self-employed
+20-29,Single,0,"Under 500,000 NOK",Owner,Row house,Small town,Culture/Lifestyle,Higher education - Bachelor,Full-time job
+40-49,Couple with children,0,"500,000–1,000,000 NOK",Owner,Row house,Small town,Nature/Peace,Høyere utdanning,Self-employed
+20-29,Couple without children,1-2,"Under 500,000 NOK",Renter,Row house,City,Nature/Peace,Høyere utdanning,Self-employed
+20-29,Single parent,0,"1,000,000–1,500,000 NOK",Owner,Row house,Countryside,Nature/Peace,Higher education - Bachelor,Self-employed
+20-29,Couple with children,1-2,"Over 1,500,000 NOK",Renter,Detached house,City,Culture/Lifestyle,Høyere utdanning,Full-time job
+20-29,Couple with children,3+,"1,000,000–1,500,000 NOK",Owner,Apartment,City,Schools/Safety,Høyere utdanning,Full-time job
+50-59,Couple with children,0,"Under 500,000 NOK",Renter,Apartment,Countryside,Culture/Lifestyle,Høyere utdanning,Full-time job
+50-59,Single,1-2,"500,000–1,000,000 NOK",Renter,Detached house,Small town,Public transport,Høyere utdanning,Self-employed
+20-29,Single,3+,"Under 500,000 NOK",Renter,Detached house,Suburb,Public transport,Higher education - Bachelor,Full-time job

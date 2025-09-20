@@ -7,19 +7,20 @@ import plotly.express as px
 # ========================
 # Load model & encoders
 # ========================
-@st.cache_resource
-def load_model_and_encoders(BASE_DIR):
-    with open(os.path.join(BASE_DIR,'model.pkl'), 'rb') as file:
+@st.cache_resource(show_spinner="📦 Loading model and encoders...")
+def load_model_and_encoders(dir):
+    with open(os.path.join(dir, 'model.pkl'), 'rb') as file:
         model = pickle.load(file)
-    with open(os.path.join(BASE_DIR,'encoder_X.pkl'), 'rb') as file:
+    with open(os.path.join(dir, 'encoder_X.pkl'), 'rb') as file:
         X_encoder = pickle.load(file)
-    with open(os.path.join(BASE_DIR,'encoder_y.pkl'), 'rb') as file:
+    with open(os.path.join(dir, 'encoder_y.pkl'), 'rb') as file:
         y_encoder = pickle.load(file)
     return model, X_encoder, y_encoder
+
 # ========================
 # Main App
 # ========================
-def main(BASE_DIR):
+def main(dir):
     # --------- PAGE CONFIG ---------
     st.set_page_config(
         page_title="ML Asset Forecast",
@@ -78,38 +79,75 @@ def main(BASE_DIR):
         """,
         unsafe_allow_html=True
     )
-    # --------- LOAD MODEL ---------
-    model, X_encoder, y_encoder = load_model_and_encoders(BASE_DIR)
-    # --------- INPUT FORMAT INFO ---------
+    # --------- ABOUT APP ---------
     st.markdown(
         """
-        <div class="info-box" style="margin-top: 2rem;">
-            <h3>ℹ️ Input Data Format</h3>
-            <p>Please upload a CSV file with the same structure as follows.<br>
-            Ensure that column names and types match the expected format.</p>
+        <div class="info-box" style="margin-top:2rem; font-size:18px; font-weight:400;">
+            <h3>📖 About This App</h3>
+            <p>
+            This application predicts asset outcomes using a pre-trained Machine Learning model.<br>
+            Please prepare your CSV input data with the correct structure.<br>
+            Below are the expected columns and examples of their possible groups/values.
+            </p>
         </div>
         """,
         unsafe_allow_html=True
     )
-    # Show sample expected format (example, adjust columns as needed)
-    sample_df = pd.DataFrame({
-        "age_group": ["20-29", "20-29", "50-59"],
-        "household_type": ["Single", "Single", "Couple with children"],
-        "num_children": ["1-2", "1-2", "0"],
-        "income_bracket": ["Over 1,500,000 NOK", "500,000–1,000,000 NOK", "Under 500,000 NOK"],
-        "tenure": ["Owner", "Owner", "Renter"],
-        "property_pref": ["Detached house", "Apartment", "Detached house"],
-        "urbanicity": ["Suburb", "City", "City"],
-        "lifestyle_pref": ["Public transport", "Schools/Safety", "Culture/Lifestyle"],
-        "education": ["Higher education - Bachelor", "Secondary school", "Higher education - Bachelor"],
-        "employment": ["Self-employed", "Full-time job", "Full-time job"]
-    })
-    with st.expander("👀 Example of valid input data"):
-        st.dataframe(sample_df, width="stretch")
+    # --------- SHOW FEATURE GROUPS FROM SAMPLE FILE ---------
+    try:
+        sample_input = pd.read_csv(os.path.join(dir, "x_test.csv"))
+        st.subheader("🔎 Input Feature Groups")
+        # Show sample expected format (example, adjust columns as needed)
+        sample_df = pd.DataFrame({
+            "age_group": ["20-29", "20-29", "50-59"],
+            "household_type": ["Single", "Single", "Couple with children"],
+            "num_children": ["1-2", "1-2", "0"],
+            "income_bracket": ["Over 1,500,000 NOK", "500,000–1,000,000 NOK", "Under 500,000 NOK"],
+            "tenure": ["Owner", "Owner", "Renter"],
+            "property_pref": ["Detached house", "Apartment", "Detached house"],
+            "urbanicity": ["Suburb", "City", "City"],
+            "lifestyle_pref": ["Public transport", "Schools/Safety", "Culture/Lifestyle"],
+            "education": ["Higher education - Bachelor", "Secondary school", "Higher education - Bachelor"],
+            "employment": ["Self-employed", "Full-time job", "Full-time job"]
+        })
+        with st.expander("👀 Show expected columns and sample groups"):
+            col1, col2 = st.columns(2)
+            cols = list(sample_input.columns)
+            half = len(cols) // 2
+            with col1:
+                for c in cols[:half]:
+                    uniques = sample_input[c].dropna().unique()[:len(sample_input)]  # show up examples
+                    st.markdown(
+                        f"""
+                        <div style="margin-bottom:1rem; padding:0.5rem; background:rgba(255,255,255,0.05); border-radius:8px;">
+                            <b>{c}</b><br>
+                            <span style="font-size:13px; color:#ddd;">Groups: {", ".join(map(str, uniques))}</span>
+                        </div>
+                        """,
+                        unsafe_allow_html=True
+                    )
+            with col2:
+                for c in cols[half:]:
+                    uniques = sample_input[c].dropna().unique()[:5]
+                    st.markdown(
+                        f"""
+                        <div style="margin-bottom:1rem; padding:0.5rem; background:rgba(255,255,255,0.05); border-radius:8px;">
+                            <b>{c}</b><br>
+                            <span style="font-size:13px; color:#ddd;">Groups: {", ".join(map(str, uniques))}</span>
+                        </div>
+                        """,
+                        unsafe_allow_html=True
+                    )
+            st.subheader("📖 Example data")
+            st.dataframe(sample_df, width="stretch")
+    except Exception as e:
+        st.warning("⚠️ Could not load sample input file to display feature groups.")
+    # --------- LOAD MODEL ---------
+    model, X_encoder, y_encoder = load_model_and_encoders(dir)
     # --------- FILE UPLOAD ---------
     st.subheader("📂 Upload Data")
     uploaded_file = st.file_uploader(
-        "Choose a CSV file for prediction", 
+        "Choose a CSV file for prediction",
         type=["csv"]
     )
     if uploaded_file is not None:
@@ -128,6 +166,7 @@ def main(BASE_DIR):
                     y_predict = y_encoder.inverse_transform(
                         y_pred.reshape(-1, 1)
                     ).flatten()
+
                     prediction = pd.DataFrame({
                         'Predicted': y_predict,
                         'Confidence': confidence.tolist()
@@ -135,15 +174,7 @@ def main(BASE_DIR):
                     st.success("✅ Prediction completed!")
                     # --------- SHOW RESULTS ---------
                     st.markdown("### 📈 Prediction Results")
-                    styled_prediction = prediction.style.set_table_styles(
-                        [
-                            {
-                                "selector": "th",
-                                "props": [("font-weight", "bold"), ("font-size", "14px"), ("text-align", "center")]
-                            }
-                        ]
-                    )
-                    st.dataframe(styled_prediction, width="stretch")
+                    st.dataframe(prediction, width="stretch")
                     # --------- CHART ---------
                     fig = px.bar(
                         prediction,
@@ -154,7 +185,7 @@ def main(BASE_DIR):
                         title="🔍 Confidence of Predictions",
                         height=400
                     )
-                    st.plotly_chart(fig, width='stretch')
+                    st.plotly_chart(fig, use_container_width=True)
                     # --------- DOWNLOAD ---------
                     csv = prediction.to_csv(index=False).encode('utf-8')
                     st.download_button(
@@ -168,6 +199,9 @@ def main(BASE_DIR):
     else:
         st.info("⬆️ Please upload a CSV file to start.")
 
+# ========================
+# Run App
+# ========================
 if __name__ == "__main__":
     BASE_DIR = os.path.dirname(__file__)
     main(BASE_DIR)
