@@ -180,10 +180,10 @@ def main(dir):
                     fig = px.bar(
                         prediction,
                         x=prediction.index[:len(prediction)],
-                        y="Confidence",
+                        y="Confidence (%)",
                         color="Predicted",
                         text="Predicted",
-                        title="🔍 Confidence of Predictions",
+                        title="🔍 Confidence of Predictions (%)",
                         height=400
                     )
                     st.plotly_chart(fig, use_container_width=True)
