@@ -95,7 +95,7 @@ def main(dir):
     )
     # --------- SHOW FEATURE GROUPS FROM SAMPLE FILE ---------
     try:
-        sample_input = pd.read_csv(os.path.join(dir, "x_test.csv"))
+        sample_input = pd.read_csv(os.path.join(dir, "test.csv"))
         st.subheader("🔎 Input Feature Groups")
         # Show sample expected format (example, adjust columns as needed)
         sample_df = pd.DataFrame({
@@ -162,6 +162,7 @@ def main(dir):
                     y_pred = model.predict(x_convert)
                     proba = model.predict_proba(x_convert)
                     confidence = np.max(proba, axis=1)
+                    confidence = np.round(confidence * 100, 1)
                     # Decode results
                     y_predict = y_encoder.inverse_transform(
                         y_pred.reshape(-1, 1)
@@ -169,7 +170,7 @@ def main(dir):
 
                     prediction = pd.DataFrame({
                         'Predicted': y_predict,
-                        'Confidence': confidence.tolist()
+                        'Confidence (%)': confidence.tolist()
                     })
                     st.success("✅ Prediction completed!")
                     # --------- SHOW RESULTS ---------
